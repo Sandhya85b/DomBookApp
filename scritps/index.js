@@ -14,7 +14,7 @@ adminform.addEventListener("submit",()=>{
         window.location.href="admin.html"
         alert("Logged in as Admin.")
     }
-    loadadminform()
+   
 })
 // function loadadminform(key, value){
 //     const cont=JSON.parse(localStorage.getItem(key)) || []

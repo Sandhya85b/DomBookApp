@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+
+</head>
+<body>
+    <div id="nav"></div>
+    <form id="form">
+        <input id="title" type="text" placeholder=" Enter Title">
+        <input id="author" type="text" placeholder="Enter Author">
+        <input id="category" type="text" placeholder="Enter category">
+        <input id="AvalibilityStatus" type="search" placeholder="True or false">
+        <input type="submit" value="Add books here">
+    </form>
+    <select name="category" id="selectCategory">
+        <option value=""></option>
+        <option value="fiction">fiction</option>
+        <option value="comedy">comedy</option>
+        <option value="technical">technical</option>
+    </select>
+    <div id="cont"></div>
+
+    <button id="verify">Verify Book</button>
+    <button id="Deletecont">Delete Book</button>
+</body>
+<script src="scritps/nav.js"></script>
+<script src="./scritps/admin.js" type="module"></script>
+<script src="./scritps/index.js"></script>
+</html>
