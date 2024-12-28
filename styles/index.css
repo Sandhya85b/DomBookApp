@@ -1,0 +1,46 @@
+
+#nav {
+    width: 100%;
+    gap: 10px;
+    padding: 40px;
+  
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+
+#form {
+    align-content: space-evenly;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+#email,#password{
+    padding: 10px;
+}
+#adminform {
+    padding: 30px;
+    background-color: blueviolet;
+    width: 30%;
+    border: 1px solid violet;
+    display: grid;
+    gap: 20px;
+
+}
+
+#userform {
+    padding: 30px;
+    background-color: blueviolet;
+    width: 30%;
+    border: 1px solid violet;
+    display: grid;
+    gap: 20px;
+}
